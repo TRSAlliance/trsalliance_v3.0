@@ -1,0 +1,11 @@
+TRS Alliance v3.0 — Netlify Deployment Guide
+
+1) Connect repository to Netlify (or upload this ZIP as a new site).
+2) Settings -> Build & deploy:
+   - Branch to deploy: main (or leave blank for ZIP deploy)
+   - Build command: npm run build
+   - Publish directory: dist
+   - Functions directory: netlify/functions (optional)
+3) Environment variables (only if using Firebase or external APIs):
+   - VITE_API_KEY, VITE_AUTH_DOMAIN, VITE_PROJECT_ID, etc.
+4) Deploy site. If you see a blank page on refresh, SPA redirect is already set in netlify.toml.

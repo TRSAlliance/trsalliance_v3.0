@@ -1,0 +1,9 @@
+Key Files & Folders
+- src/: Main application code (React + TS)
+- src/pages/: Route-level pages (Home, Sentinel, Dashboard)
+- src/components/TRS-Terminal.tsx: Terminal-style demo component
+- src/modules/sentinel/integrityCheck.ts: Mock integrity scan
+- ghostshift/: GhostShift simulator scaffold (React stubs + dashboard)
+- scripts/: Utility scripts (threat assessment stub)
+- public/: Static assets & index.html shell
+- netlify/functions/: Placeholder for serverless functions
